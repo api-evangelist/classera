@@ -1,0 +1,23 @@
+generated: '2026-07-18'
+method: searched
+source: https://classera.com/en/company/security/
+standards:
+- id: iso-27001
+  conforms: true
+  evidence: 'Classera security page states it achieved ISO 27001 Information Security
+    Management System (ISMS) certification.'
+- id: microsoft-security-assessment
+  conforms: true
+  evidence: 'Classera security page references a completed Microsoft security assessment.'
+- id: iso-27018
+  conforms: false
+- id: soc2
+  conforms: false
+- id: pci-dss
+  conforms: false
+- id: gdpr
+  conforms: false
+- id: ferpa
+  conforms: false
+- id: hipaa
+  conforms: false

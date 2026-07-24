@@ -1,7 +1,14 @@
 aid: classera
 name: Classera
-description: Classera is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Classera is an AI-powered education technology company that goes beyond
+  a traditional Learning Management System (LMS) to deliver a complete education ecosystem
+  spanning LMS, school ERP, fintech and payment solutions, and an educational marketplace,
+  with more than 25 integrated services. Its platform emphasizes gamification, personalization,
+  AI-driven and social learning, and serves K-12 private schools, higher education,
+  ministries of education, and corporate and government training. Classera reports
+  more than 30 million users across 45+ countries and partners including Microsoft,
+  Amazon Web Services, HP, Zoom, and Intel. Headquartered in San Francisco, it was
+  surfaced as a portfolio company of 500 Global and added to the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/classera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://classera.com/static/assets/img/logos/hqlogo.svg
 tags:
 - Company
+- Education
+- EdTech
+- Learning Management System
+- LMS
+- ERP
+- Fintech
+- K-12
+- Higher Education
+- Corporate Training
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/classera-domain-security.yml
+- type: Conformance
+  url: conformance/classera-conformance.yml
+- type: Compliance
+  url: https://classera.com/en/company/security/
+- type: Documentation
+  url: https://api.classera.com
+- type: Blog
+  url: https://classera.com/en/company/news/
+- type: TermsOfService
+  url: https://classera.com/en/company/terms/
+- type: PrivacyPolicy
+  url: https://classera.com/en/company/policy/
+- type: SignUp
+  url: https://classera.com/en/requestdemo/
+- type: Login
+  url: https://learn.classera.com/
 - type: Website
   url: https://classera.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

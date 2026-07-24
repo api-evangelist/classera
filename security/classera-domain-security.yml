@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: classera.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 29 13:26:52 2026 GMT
+  hsts: false
+domains:
+- domain: classera.com
+  dnssec: true
+  caa:
+  - 0 issue "amazonaws.com"
+  - 0 issue "amazontrust.com"
+  - 0 issue "awstrust.com"
+  - 0 issue "digicert.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog"
+  spf: true
+  dmarc: true
+  dmarc_policy: none
